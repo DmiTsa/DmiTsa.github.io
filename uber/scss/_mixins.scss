@@ -1,0 +1,24 @@
+@mixin blue-check {
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    transform: translate(0px, 4px);
+    background: url('../icons/check_blue_icon.png') center center/cover
+      no-repeat;
+  }
+}
+
+@mixin red-check {
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    transform: translate(0px, 4px);
+    background: url('../icons/check_red_icon.png') center center/cover no-repeat;
+  }
+}
